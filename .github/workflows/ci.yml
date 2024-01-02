@@ -9,7 +9,7 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [flyci-macos-large-latest-m1]
+        os: [flyci-macos-large-latest-m2]
 
     runs-on: ${{ matrix.os }}
 
